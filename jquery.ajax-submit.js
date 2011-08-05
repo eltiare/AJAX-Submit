@@ -36,7 +36,6 @@
             });
             data = $.extend(data, options.data || {});
             options.data = data;
-            console.info(options);
             $.ajax(options);
         }
     };
